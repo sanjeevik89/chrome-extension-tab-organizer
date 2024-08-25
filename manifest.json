@@ -4,16 +4,15 @@
   "description": "Manages tabs into predefined tabGroups",
   "version": "1.1",
   "icons": {
-    "16": "images/tabs-icon-16.png",
-    "32": "images/tabs-icon-32.png",
-    "48": "images/tabs-icon-48.png",
-    "128": "images/tabs-icon-128.png"
+    "16": "images/tabFlipper16.png",
+    "32": "images/tabFlipper32.png",
+    "48": "images/tabFlipper48.png",
+    "128": "images/tabFlipper128.png"
   },
   "action": {
     "default_popup": "popup.html"
   },
-  "permissions": [
-    "activeTab",
+  "permissions": [    
     "tabs",
     "tabGroups"
   ],
